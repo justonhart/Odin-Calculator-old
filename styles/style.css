@@ -25,14 +25,21 @@ body{
     background-color: white;
     box-shadow: 0px 0px .5em 0 rgba(0,0,0,0.75);
     font-size: 18pt;
+    transition: all .1s ease;
 }
 #calcDiv input:focus{
     outline: none;
+}
+#calcDiv input.active{
+    background-color: rgb(218, 218, 218);
 }
 #calcDiv #equalsButton{
     background-color: rgb(49, 133, 243);
     border-color: rgb(37, 100, 182);
     border-radius: 15px;
+}
+#calcDiv #equalsButton.active{
+    background-color: rgb(31, 87, 160);
 }
 #calcDiv #outputView{
     border-radius: 15px;
@@ -40,4 +47,9 @@ body{
     grid-column: 1/4;
     padding: 24px;
     font-size: 48px;
+}
+
+#calcDiv #clear{
+    background-color: rgb(248, 193, 193);
+    border-color: rgb(253, 184, 184);
 }

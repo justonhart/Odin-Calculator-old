@@ -5,23 +5,25 @@
 </head>
 <body>
     <div id="calcDiv">
-        <input id="outputView" type="text" value="0">
-        <input id="equalsButton" type="button" value="=">
-        <input type="button" value="1">
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" value="+">
-        <input type="button" value="4">
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" value="-">
-        <input type="button" value="7">
-        <input type="button" value="8">
-        <input type="button" value="9">
-        <input type="button" value="*">
-        <div class="spacer"></div>
-        <input type="button" value="0">
-        <input type="button" value=".">
-        <input type="button" value="/">
+        <input id="outputView" type="text" value="0" readonly>
+        <input id="equalsButton" data-key="13" type="button" value="=">
+        <input data-key="103" type="button" value="7">
+        <input data-key="104" type="button" value="8">
+        <input data-key="105" type="button" value="9">
+        <input data-key="107" type="button" value="+">
+        <input data-key="100" type="button" value="4">
+        <input data-key="101" type="button" value="5">
+        <input data-key="102" type="button" value="6">
+        <input data-key="109" type="button" value="-">
+        <input data-key="97" type="button" value="1">
+        <input data-key="98" type="button" value="2">
+        <input data-key="99" type="button" value="3">
+        <input data-key="106" type="button" value="*">
+        <input id = "clear" data-key="27" type="button" value="C">
+        <input data-key="96" type="button" value="0">
+        <input data-key="110" type="button" value=".">
+        <input data-key="111" type="button" value="/">
     </div>
+
+    <script src="scripts/index.js"></script>
 </body>
